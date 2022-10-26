@@ -44,19 +44,20 @@ for xd in range(10000):
 
 
 	aa='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['3','4','5','6','7','8','9','10','11','12'])
-	c=random.choice(['fr-fr; A500 Build/','de-de; EasyPad 970 Build/','vi-vn; ZTE-U V889F Build/','en-US; Aqua_Q1+ Build/','ja-jp; ISW13F Build/'])
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l=random.choice(['Mobile Safari/537.36 [WhatsApp2Plus/2.20.123 A]','Mobile Safari/537.36 [WhatsApp X/2.20.157 A]'])
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
+	b=raaa='Mozilla/5.0 (Linux; Android 12;'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c='Redmi Note 7 Build/SQ1A.211205.008; wv'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36 OPR/61.0.2254.59937'
+    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    ugen.append(uaku2)
 for x in range(10):
 	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
 	b=random.randrange(100, 9999)
@@ -71,10 +72,11 @@ for x in range(10):
 	k=random.randrange(1, 9)
 	l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+	ugen.append(uak)
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua:
+		for ub in ua : 
 			ugen.append(ub)
 	except:
 		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
