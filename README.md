@@ -21,7 +21,7 @@ $ git clone https://github.com/X-Hamsterr/CrackingFB
 
 $ ls ( L kecil )
 
-$ cd cracking6
+$ cd crackingFB
 
 $ python levia.py
 
@@ -38,4 +38,4 @@ $ ls ( L kecil )
 
 $ git pull
 
-$ python levia.py
+$ python levia.py 
