@@ -2,6 +2,7 @@
 
 
 $ cd
+
 $ pkg update && pkg upgrade
 
 $ pkg install python git
@@ -30,7 +31,11 @@ $ python mom.py
 
 
 $ cd
+
 $ cd crackingFB
+
 $ ls ( L kecil )
+
 $ git pull
+
 $ python levia.py
