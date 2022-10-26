@@ -23,7 +23,7 @@ $ ls ( L kecil )
 
 $ cd cracking6
 
-$ python mom.py
+$ python levia.py
 
 
 
